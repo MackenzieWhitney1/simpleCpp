@@ -1,0 +1,19 @@
+1410469338.025: DM started: dm_pid=5076
+1410469338.025: DM command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dm.exe --AM-port 54010 --log-file c:/Users/David Cuthbert/Downloads/simpleCpp/simpleCpp/.cov/idir/output/distributor.log -j 1 --AW-timeout 36000 C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker
+1410469338.025: Connecting to AM at 127.0.0.1:54010
+1410469338.025: Connected to AM: (local) 127.0.0.1:54011 - 127.0.0.1:54010 (remote)
+1410469338.025: Listening for DWs at 127.0.0.1:54012
+1410469338.025: Starting DW 1 with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 54012 --DW-id 1
+1410469338.041: DW 1 started: dw_pid=4676
+1410469338.119: DW 1 log: 1410469338.119: Connecting to DM on 127.0.0.1:54012
+1410469338.119: Received a connection from a DW: 127.0.0.1:54013
+1410469338.119: DW 1 log: 1410469338.119: Connected to the DM: (local) 127.0.0.1:54013 - 127.0.0.1:54012 (remote)
+1410469338.119: DW 1 log: 1410469338.119: Sending DWDM_INIT: dw_id=1, benchmark=0
+1410469338.119: Received DWDM_INIT: dw_id=1, benchmark=0
+1410469338.119: Stopping to listen for new DWs
+1410469338.119: Sending DMDW_INIT to DW 1: aw_command_line=["C:\\Program Files\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1410469338.119: DW 1 log: 1410469338.119: Received DMDW_INIT: aw_command_line=["C:\\Program Files\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1410469338.119: DW 1 log: 1410469338.119: Started listening for AW at 127.0.0.1:54014
+1410469338.119: DW 1 log: 1410469338.119: Starting AW with command line (COVERITY_DW_PORT=54014): C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker
+1410469338.134: DW 1 log: 1410469338.134: AW started: aw_pid=4976
+1410469338.228: DW 1 log: 1410469338.228: DW 1 received connection from AW: (local) 127.0.0.1:54014 - 127.0.0.1:54015 (remote)

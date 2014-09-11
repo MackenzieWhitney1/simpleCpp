@@ -1,0 +1,7 @@
+startup: Coverity Desktop Analysis version harmony on Windows 7 Enterprise, 64-bit (build 7600)
+startup: Internal version numbers: ce13406c64 p-harmony-push-20372
+startup: started at 2014-09-11 15:09:21
+startup: command line: C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-run-desktop.exe --dir C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir --user admin --port 8080 --host localhost --stream simpleCpp-cpp --reference-snapshot latest --sort function:a,cid:a --no-text-output --json-output-v1 C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\fast-desktop.json --no-default-triage-filters --triage-attribute-regex classification ^Unclassified$|^Pending$|^Bug$|^Untested$ --restrict-modified-file-regex ^.*\.c$|^.*\.cpp$|^.*\.cc$|^.*\.cxx$|^.*\.h$|^.*\.hh$|^.*\.hpp$|^.*\.hxx$|^.*\.inl$|^.*\.tli$|^.*\.tlh$|^.*\.inc$|^.*\.cs$ --analyze-scm-modified --scm git --scm-tool C:\Program Files (x86)\Git\bin\git.exe --scm-project-root C:\Users\David Cuthbert\Downloads\simpleCpp
+cov-extract-scm: running: C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-extract-scm --no-banner --scm git --tool C:/Program Files (x86)/Git/bin/git.exe --project-root C:/Users/David Cuthbert/Downloads/simpleCpp --get-modified-files --output c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\output\extract-result.json
+cov-extract-scm: C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-extract-scm took 0.1 seconds.
+shutdown: cov-run-desktop terminating with code 0 at 2014-09-11 15:09:21

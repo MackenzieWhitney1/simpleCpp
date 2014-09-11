@@ -1,0 +1,4 @@
+TUInfos cache miss rate: 4 / 12004 (0.03%)
+GetCallees cache miss rate: 13436 / 16008 (83.93%)
+GetCallers cache miss rate: 11436 / 16008 (71.44%)
+protector_locks cache miss rate: 4002 / 4002 (100.00%)

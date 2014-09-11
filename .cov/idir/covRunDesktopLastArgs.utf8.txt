@@ -1,0 +1,27 @@
+--dir
+C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir
+--user
+admin
+--port
+8080
+--host
+localhost
+--stream
+simpleCpp-cpp
+--reference-snapshot
+latest
+--sort
+function:a,cid:a
+--no-text-output
+--json-output-v1
+C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\fast-desktop.json
+--no-default-triage-filters
+--restrict-modified-file-regex
+^.*\.c$|^.*\.cpp$|^.*\.cc$|^.*\.cxx$|^.*\.h$|^.*\.hh$|^.*\.hpp$|^.*\.hxx$|^.*\.inl$|^.*\.tli$|^.*\.tlh$|^.*\.inc$|^.*\.cs$
+--analyze-scm-modified
+--scm
+git
+--scm-tool
+C:\Program Files (x86)\Git\bin\git.exe
+--scm-project-root
+C:\Users\David Cuthbert\Downloads\simpleCpp

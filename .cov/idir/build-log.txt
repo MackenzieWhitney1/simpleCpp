@@ -1,0 +1,426 @@
+2014-09-11T21:01:41.047851Z|cov-build|3496|info|> cov-build harmony (build ce13406c64 p-harmony-push-20372)
+2014-09-11T21:01:41.047851Z|cov-build|3496|info|> Coverity Build Capture (64-bit) version harmony on Windows 7 Enterprise, 64-bit (build 7600)
+2014-09-11T21:01:41.047851Z|cov-build|3496|info|> Internal version numbers: ce13406c64 p-harmony-push-20372
+2014-09-11T21:01:41.047851Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.047851Z|cov-build|3496|info|> Dumping from hostname : WIN-OHVT1OSKC9G
+2014-09-11T21:01:41.047851Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.047851Z|cov-build|3496|info|> Platform info: Windows 7 Enterprise, 64-bit (build 7600)
+2014-09-11T21:01:41.047851Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.047851Z|cov-build|3496|info|> cov-build command: "C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-build.exe" --dir "C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir" --desktop C:\Windows\Microsoft.NET\Framework\v4.0.30319\\MSBuild.exe "C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp.sln" /t:Rebuild /p:platform=Win32 /p:configuration=Debug 
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> build command: C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp.sln /t:Rebuild /p:platform=Win32 /p:configuration=Debug
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> thunk command: C:\Windows\Microsoft.NET\Framework\v4.0.30319\\MSBuild.exe C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp.sln /t:Rebuild /p:platform=Win32 /p:configuration=Debug
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> Set COVERITY_CAPTURE_IGNORE to MSPDBSVR.EXE
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> Set COVERITY_BUILD_COMMAND to "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe"  "C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp.sln" /t:Rebuild /p:platform=Win32 /p:configuration=Debug
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> Set COVERITY_ORIG_BUILD_COMMAND to C:\Windows\Microsoft.NET\Framework\v4.0.30319\\MSBuild.exe C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp.sln /t:Rebuild /p:platform=Win32 /p:configuration=Debug
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> Set COVERITY_COV_BUILD_COMMAND to "C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-build.exe" --dir "C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir" --desktop C:\Windows\Microsoft.NET\Framework\v4.0.30319\\MSBuild.exe "C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp.sln" /t:Rebuild /p:platform=Win32 /p:configuration=Debug 
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> Set COVERITY_CAPTURE_CHCMDLINE_TYPE to static
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> Set COVERITY_BIN to C:/Program Files/Coverity/Coverity Static Analysis/bin
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> Set COVERITY_SITE_CC to cl;devenv;msbuild
+2014-09-11T21:01:41.049804Z|cov-build|3496|info|> Set COVERITY_TEMP to C:/Users/DAVIDC~1/AppData/Local/Temp/cov-David Cuthbert/34687400c6cfb000a63db8723650fdc0
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> Set COVERITY_IDIR to c:/Users/David Cuthbert/Downloads/simpleCpp/simpleCpp/.cov/idir
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> Set COVERITY_OUTPUT to pipe:\\.\pipe\cov-log-55cc12aeb6163ae6e7578a705b158ad3.s
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> Set COVERITY_LOG to pipe:\\.\pipe\cov-log-55cc12aeb6163ae6e7578a705b158ad3.m
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> Set COVERITY_OUTPUT_ENCODING to windows-1252
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> Set COVERITY_USING_CYGWIN to False
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> Dumping configuration:
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> User/default configuration:
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.050781Z|cov-build|3496|info|> Configuration read from: command-line
+2014-09-11T21:01:41.051757Z|cov-build|3496|info|> Node: coverity
+2014-09-11T21:01:41.051757Z|cov-build|3496|info|>   Node: config
+2014-09-11T21:01:41.051757Z|cov-build|3496|info|>     Node: include Value: c:\Program Files\Coverity\Coverity Static Analysis\config\coverity_config.xml
+2014-09-11T21:01:41.051757Z|cov-build|3496|info|>   Node: config
+2014-09-11T21:01:41.051757Z|cov-build|3496|info|>     Node: prevent
+2014-09-11T21:01:41.051757Z|cov-build|3496|info|>       Node: emit_options
+2014-09-11T21:01:41.051757Z|cov-build|3496|info|>         Node: desktop Value: true
+2014-09-11T21:01:41.051757Z|cov-build|3496|info|>   Node: config
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|>     Node: prevent
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|>       Node: dir Value: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|> Configuration read from: C:\Program Files\Coverity\Coverity Static Analysis\config\coverity_config.xml
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|> Node: coverity
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|>   Node: config
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|>     Node: include Value: C:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc-config-0\coverity_config.xml
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|>     Node: include Value: C:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc_devenv-config-0\coverity_config.xml
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|>     Node: include Value: C:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc_msbuild-config-0\coverity_config.xml
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|> Configuration read from: C:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc-config-0\coverity_config.xml
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|> Node: coverity
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|>   Node: config
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|>     Node: build
+2014-09-11T21:01:41.059570Z|cov-build|3496|info|>       Node: compiler
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: template_compiler Value: true
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: comp_name Value: cl
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: comp_translator Value: msvc
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: comp_lang Value: C/C++
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: version Value: 1600
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>       Node: options
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: id Value: msvc-cl-.*
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: opt_preinclude_file Value: C:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc-config-0/../user_nodefs.h
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: begin_command_line_config
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>       Node: options
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: id Value: msvc_cxx-cl-.*
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: opt_preinclude_file Value: C:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc-config-0/../user_nodefs.h
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>         Node: begin_command_line_config
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|>   Node: md5 Value: d9223876b3da325f36c6a2d1341d8db1
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.060546Z|cov-build|3496|info|> Configuration read from: C:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc_devenv-config-0\coverity_config.xml
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|> Node: coverity
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>   Node: config
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>     Node: build
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>       Node: compiler
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>         Node: template_compiler Value: true
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>         Node: comp_name Value: devenv
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>         Node: comp_translator Value: msvc_devenv
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>         Node: comp_lang Value: C/C++
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>       Node: options
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>         Node: id Value: msvc_devenv-devenv-.*
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>         Node: opt_preinclude_file Value: C:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc_devenv-config-0/../user_nodefs.h
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>         Node: begin_command_line_config
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|>   Node: md5 Value: 61a24234ac1dba14b425ee513c682971
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|> Configuration read from: C:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc_msbuild-config-0\coverity_config.xml
+2014-09-11T21:01:41.061523Z|cov-build|3496|info|> Node: coverity
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>   Node: config
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>     Node: build
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>       Node: compiler
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>         Node: template_compiler Value: true
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>         Node: comp_name Value: msbuild
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>         Node: comp_translator Value: msvc_msbuild
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>         Node: comp_lang Value: C/C++
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>       Node: options
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>         Node: opt_preinclude_file Value: C:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc_msbuild-config-0/../user_nodefs.h
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>         Node: begin_command_line_config
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|>   Node: md5 Value: ea04be9161c738f06f3ca49f8baac6bc
+2014-09-11T21:01:41.062500Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.069335Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.069335Z|cov-build|3496|info|> Cached template configuration instances:
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|> Configuration read from: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\coverity_config.xml
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|> Node: coverity
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>   Node: config
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>     Node: include Value: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc-config-0\coverity_config.xml
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>     Node: include Value: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity_config.xml
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|> Configuration read from: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc-config-0\coverity_config.xml
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|> Node: coverity
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>   Node: config
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>     Node: build
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>       Node: compiler
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>         Node: comp_name Value: cl
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>         Node: comp_dir Value: c:\program files (x86)\microsoft visual studio 11.0\vc\bin
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>         Node: comp_translator Value: msvc
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>         Node: comp_lang Value: C/C++
+2014-09-11T21:01:41.070312Z|cov-build|3496|info|>         Node: id Value: msvc-cl-1700-cbc2e049f0f8f873b19608ab1ba13e3b-0
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: version Value: 1700
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>       Node: options
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: id Value: msvc-cl-1700-cbc2e049f0f8f873b19608ab1ba13e3b-0
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: template_config_option_id Value: msvc-cl-.*
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: preprocess_remove_arg Value: [-/]Fo.+
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: preprocess_remove_arg Value: [-/]c
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: preprocess_remove_next_arg Value: [-/]Fo
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: preprocess_switch Value: /E
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: preprocess_compile_switch Value: /C
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: pre_preinclude_file Value: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc-config-0\coverity-macro-compat.h
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: pre_preinclude_file Value: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc-config-0\coverity-compiler-compat.h
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: prepend_arg Value: -w
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: prepend_arg Value: --no_stdarg_builtin
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: prepend_arg Value: --size_t_type=j
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2014-09-11T21:01:41.071289Z|cov-build|3496|info|>         Node: prepend_arg Value: --type_sizes=x8li4s2ed8fP4
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: prepend_arg Value: --type_alignments=x8li4s2ed8fP4
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: prepend_arg Value: --enable_declspec
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: prepend_arg Value: --default_cdecl
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: prepend_arg Value: --microsoft_version
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: prepend_arg Value: 1700
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: /E
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: /EP
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: /P
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: /Zg
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: /Zs
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: /?
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: /HELP
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: /help
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: /ZW
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: -E
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: -EP
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: -P
+2014-09-11T21:01:41.072265Z|cov-build|3496|info|>         Node: skip_arg Value: -Zg
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_arg Value: -Zs
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_arg Value: -?
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_arg Value: -HELP
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_arg Value: -help
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_arg Value: -ZW
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_substring Value: /CLR
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_substring Value: -CLR
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_substring Value: /clr
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_substring Value: -clr
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: skip_file Value: conftest\.cpp$
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: opt_preinclude_file Value: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc-config-0/../user_nodefs.h
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>         Node: begin_command_line_config
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|>   Node: md5 Value: 1c74f93f2b1b427282f3573c2f848dc9
+2014-09-11T21:01:41.073242Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> Preincluded file begin: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc-config-0\coverity-macro-compat.h
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> ﻿
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #if !(defined(_MSC_VER) || defined(__coverity_undefine__MSC_VER))
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #define _MSC_VER 1700
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #if !(defined(_MSC_FULL_VER) || defined(__coverity_undefine__MSC_FULL_VER))
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #define _MSC_FULL_VER 170050727
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #if !(defined(_M_IX86) || defined(__coverity_undefine__M_IX86))
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #define _M_IX86 600
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #if !(defined(_WIN32) || defined(__coverity_undefine__WIN32))
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #define _WIN32 1
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.074218Z|cov-build|3496|info|> #if !(defined(_M_IX86_FP) || defined(__coverity_undefine__M_IX86_FP))
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #define _M_IX86_FP 2
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #if !(defined(__COUNTER__) || defined(__coverity_undefine___COUNTER__))
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #define __COUNTER__ 0
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #if !(defined(_INTEGRAL_MAX_BITS) || defined(__coverity_undefine__INTEGRAL_MAX_BITS))
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #define _INTEGRAL_MAX_BITS 64
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #if !(defined(_MSC_BUILD) || defined(__coverity_undefine__MSC_BUILD))
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #define _MSC_BUILD 1
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #if !(defined(_MSC_EXTENSIONS) || defined(__coverity_undefine__MSC_EXTENSIONS))
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #define _MSC_EXTENSIONS 1
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #if !(defined(_MT) || defined(__coverity_undefine__MT))
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #define _MT 1
+2014-09-11T21:01:41.075195Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|> Preincluded file end: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc-config-0\coverity-macro-compat.h
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|> Preincluded file begin: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc-config-0\coverity-compiler-compat.h
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|> ﻿
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|> /*
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|>   (c) 2003-2014 Coverity, Inc. All rights reserved worldwide.
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|>   The information contained in this file is the proprietary and confidential
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|>   information of Coverity, Inc. and its licensors, and is supplied subject to,
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|>   and may be used only by Coverity customers in accordance with the terms and
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|>   conditions of a previously executed license agreement between Coverity and
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|>   that customer.
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|> */
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.076171Z|cov-build|3496|info|> /* DO NOT MODIFY THE CONTENTS OF THIS FILE */
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> #define __ptr64
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> #define _export
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> #define _vectorcall __vectorcall
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> #define __vectorcall
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> #define __FUNCSIG__ __FUNCSIG__
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> #if defined(_M_MIPS) || defined(_M_SH)
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> /* __asm is not a keyword for these compilers */
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> #define __asm __COVERITY___asm
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> #if defined(_Wp64)
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> typedef __COVERITY_SIZE_TYPE__ size_t;
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.078125Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.079101Z|cov-build|3496|info|> Preincluded file end: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc-config-0\coverity-compiler-compat.h
+2014-09-11T21:01:41.079101Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.079101Z|cov-build|3496|info|> Configuration read from: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity_config.xml
+2014-09-11T21:01:41.079101Z|cov-build|3496|info|> Node: coverity
+2014-09-11T21:01:41.079101Z|cov-build|3496|info|>   Node: config
+2014-09-11T21:01:41.080078Z|cov-build|3496|info|>     Node: build
+2014-09-11T21:01:41.080078Z|cov-build|3496|info|>       Node: compiler
+2014-09-11T21:01:41.080078Z|cov-build|3496|info|>         Node: comp_name Value: cl
+2014-09-11T21:01:41.080078Z|cov-build|3496|info|>         Node: comp_dir Value: c:\program files (x86)\microsoft visual studio 11.0\vc\bin
+2014-09-11T21:01:41.080078Z|cov-build|3496|info|>         Node: comp_translator Value: msvc_cxx
+2014-09-11T21:01:41.080078Z|cov-build|3496|info|>         Node: comp_lang Value: C/C++
+2014-09-11T21:01:41.080078Z|cov-build|3496|info|>         Node: id Value: msvc_cxx-cl-1700-cbc2e049f0f8f873b19608ab1ba13e3b-0
+2014-09-11T21:01:41.080078Z|cov-build|3496|info|>         Node: version Value: 1700
+2014-09-11T21:01:41.080078Z|cov-build|3496|info|>       Node: options
+2014-09-11T21:01:41.080078Z|cov-build|3496|info|>         Node: id Value: msvc_cxx-cl-1700-cbc2e049f0f8f873b19608ab1ba13e3b-0
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: template_config_option_id Value: msvc_cxx-cl-.*
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: preprocess_remove_arg Value: [-/]Fo.+
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: preprocess_remove_arg Value: [-/]c
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: preprocess_remove_next_arg Value: [-/]Fo
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: preprocess_switch Value: /E
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: preprocess_compile_switch Value: /C
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: pre_preinclude_file Value: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity-macro-compat.h
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: pre_preinclude_file Value: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity-compiler-compat.h
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: prepend_arg Value: -w
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: prepend_arg Value: --no_stdarg_builtin
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: prepend_arg Value: --size_t_type=j
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: prepend_arg Value: --type_sizes=w2x8li4s2ed8fP4
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: prepend_arg Value: --type_alignments=w2x8li4s2ed8fP4
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: prepend_arg Value: --enable_declspec
+2014-09-11T21:01:41.081054Z|cov-build|3496|info|>         Node: prepend_arg Value: --default_cdecl
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: prepend_arg Value: --microsoft_version
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: prepend_arg Value: 1700
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: /E
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: /EP
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: /P
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: /Zg
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: /Zs
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: /?
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: /HELP
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: /help
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: /ZW
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: -E
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: -EP
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: -P
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: -Zg
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: -Zs
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: -?
+2014-09-11T21:01:41.082031Z|cov-build|3496|info|>         Node: skip_arg Value: -HELP
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>         Node: skip_arg Value: -help
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>         Node: skip_arg Value: -ZW
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>         Node: skip_substring Value: /CLR
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>         Node: skip_substring Value: -CLR
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>         Node: skip_substring Value: /clr
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>         Node: skip_substring Value: -clr
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>         Node: skip_file Value: conftest\.cpp$
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>         Node: opt_preinclude_file Value: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0/../user_nodefs.h
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>         Node: begin_command_line_config
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|>   Node: md5 Value: b20e165c9e17cee7161f19d07e8f4316
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|> Preincluded file begin: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity-macro-compat.h
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|> ﻿
+2014-09-11T21:01:41.083007Z|cov-build|3496|info|> #if !(defined(_MSC_VER) || defined(__coverity_undefine__MSC_VER))
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #define _MSC_VER 1700
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #if !(defined(_MSC_FULL_VER) || defined(__coverity_undefine__MSC_FULL_VER))
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #define _MSC_FULL_VER 170050727
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #if !(defined(_M_IX86) || defined(__coverity_undefine__M_IX86))
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #define _M_IX86 600
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #if !(defined(_WIN32) || defined(__coverity_undefine__WIN32))
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #define _WIN32 1
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #if !(defined(_M_IX86_FP) || defined(__coverity_undefine__M_IX86_FP))
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #define _M_IX86_FP 2
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #if !(defined(__COUNTER__) || defined(__coverity_undefine___COUNTER__))
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #define __COUNTER__ 0
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #if !(defined(__cplusplus) || defined(__coverity_undefine___cplusplus))
+2014-09-11T21:01:41.083984Z|cov-build|3496|info|> #define __cplusplus 199711L
+2014-09-11T21:01:41.084960Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #if !(defined(_CPPRTTI) || defined(__coverity_undefine__CPPRTTI))
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #define _CPPRTTI 1
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #if !(defined(_INTEGRAL_MAX_BITS) || defined(__coverity_undefine__INTEGRAL_MAX_BITS))
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #define _INTEGRAL_MAX_BITS 64
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #if !(defined(_MSC_BUILD) || defined(__coverity_undefine__MSC_BUILD))
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #define _MSC_BUILD 1
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #if !(defined(_MSC_EXTENSIONS) || defined(__coverity_undefine__MSC_EXTENSIONS))
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #define _MSC_EXTENSIONS 1
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #if !(defined(_MT) || defined(__coverity_undefine__MT))
+2014-09-11T21:01:41.085937Z|cov-build|3496|info|> #define _MT 1
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> #if !(defined(_NATIVE_NULLPTR_SUPPORTED) || defined(__coverity_undefine__NATIVE_NULLPTR_SUPPORTED))
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> #define _NATIVE_NULLPTR_SUPPORTED 1
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> Preincluded file end: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity-macro-compat.h
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> Preincluded file begin: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity-compiler-compat.h
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> ﻿
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> /*
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|>   (c) 2003-2014 Coverity, Inc. All rights reserved worldwide.
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|>   The information contained in this file is the proprietary and confidential
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|>   information of Coverity, Inc. and its licensors, and is supplied subject to,
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|>   and may be used only by Coverity customers in accordance with the terms and
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|>   conditions of a previously executed license agreement between Coverity and
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|>   that customer.
+2014-09-11T21:01:41.086914Z|cov-build|3496|info|> */
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> /* DO NOT MODIFY THE CONTENTS OF THIS FILE */
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> #define __ptr64
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> #define _export
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> #define _vectorcall __vectorcall
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> #define __vectorcall
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> #define __FUNCSIG__ __FUNCSIG__
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> /* Workaround for C++11 thread_local keyword */
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> #define _ALLOW_KEYWORD_MACROS
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> #define thread_local __declspec(thread)
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> #if defined(_M_MIPS) || defined(_M_SH)
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> /* __asm is not a keyword for these compilers */
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> #define __asm __COVERITY___asm
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.087890Z|cov-build|3496|info|> class type_info;
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> // BZ 50631
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> typedef struct _PMD
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> {
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|>     int mdisp;
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|>     int pdisp;
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|>     int vdisp;
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> } _PMD;
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> #ifdef _ATL_NO_UUIDOF
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> #nodef _ATL_IIDOF __uuidof
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> #endif
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> Preincluded file end: c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity-compiler-compat.h
+2014-09-11T21:01:41.088867Z|cov-build|3496|info|> 
+2014-09-11T21:01:41.138671Z|cov-internal-capture|3812|info|> Running build command: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe"  "C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp.sln" /t:Rebuild /p:platform=Win32 /p:configuration=Debug
+2014-09-11T21:01:41.138671Z|cov-internal-capture|3812|info|> Launching in directory C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp
+2014-09-11T21:01:41.211914Z|cov-internal-capture|3812|info|> EXECUTING: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe"  "C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp.sln" /t:Rebuild /p:platform=Win32 /p:configuration=Debug
+2014-09-11T21:01:55.927734Z|cov-internal-capture|3812|info|> EXECUTING: "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe" @"C:\Users\David Cuthbert\AppData\Local\Temp\tmp017a9a1aa52045b39e5225cc7161d64f.tmp" /c "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe"  @"C:\Users\David Cuthbert\AppData\Local\Temp\tmp227ef33ed5a642e88cd8295c18fd0090.rsp"
+2014-09-11T21:01:57.876953Z|cov-internal-capture|3812|info|> EXECUTING: "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe" "@C:\Users\David Cuthbert\AppData\Local\Temp\tmp227ef33ed5a642e88cd8295c18fd0090.rsp"
+2014-09-11T21:02:00.822265Z|cov-internal-capture|3812|info|> EXECUTING: mspdbsrv.exe -start -spawn
+2014-09-11T21:02:01.258789Z|cov-internal-capture|3812|info|> CWD: C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp\
+2014-09-11T21:02:01.258789Z|cov-internal-capture|3812|info|> COMPILING: "C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-translate.exe" "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe" "@C:\Users\David Cuthbert\AppData\Local\Temp\tmp227ef33ed5a642e88cd8295c18fd0090.rsp"
+2014-09-11T21:02:01.258789Z|cov-internal-capture|3812|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-55cc12aeb6163ae6e7578a705b158ad3.s
+2014-09-11T21:02:01.526367Z|cov-translate|4444|output|> Using cached template compiler configuration instance c:/Users/David Cuthbert/Downloads/simpleCpp/simpleCpp/.cov/idir/emit/WIN-OHVT1OSKC9G/config/cbc2e049f0f8f873b19608ab1ba13e3b/coverity_config.xml
+2014-09-11T21:02:01.541015Z|cov-translate|4444|output|> COV_TRANSLATE EXPANDED ARGS: "/c" "/ZI" "/nologo" "/W3" "/WX-" "/sdl" "/Od" "/Oy-" "/D" "WIN32" "/D" "_DEBUG" "/D" "_CONSOLE" "/D" "_UNICODE" "/D" "UNICODE" "/Gm" "/EHsc" "/RTC1" "/MDd" "/GS" "/fp:precise" "/Zc:wchar_t" "/Zc:forScope" "/Ycstdafx.h" "/FpDebug\simpleCpp.pch" "/FoDebug\" "/FdDebug\vc110.pdb" "/Gd" "/TP" "/analyze-" "/errorReport:queue" "stdafx.cpp"
+2014-09-11T21:02:01.576171Z|cov-translate|4444|output|> Creating precompiled header (PCH) data for source file "C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp\stdafx.cpp" using command:
+2014-09-11T21:02:01.576171Z|cov-translate|4444|output|> "C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-emit.exe" -w --no_stdarg_builtin --enable_declspec --default_cdecl --microsoft_version 1700 --pre_preinclude "c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity-macro-compat.h" --pre_preinclude "c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity-compiler-compat.h" --preinclude "c:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc-config-0\..\user_nodefs.h" --c++ --microsoft --default_cdecl -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include" -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\um" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\shared" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\winrt" --import_dir Debug -I Debug --no_alternative_tokens --typeinfo_nostd --exceptions -DUNICODE -DWIN32 -D_CONSOLE -D_CPPUNWIND -D_DEBUG=1 -D_DLL=1 -D_MT=1 -D_UNICODE -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i -E --append_macro_definitions --pch_tu=64 "--pch_name=C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp\Debug\simpleCpp.pch" --no_xrefs "--dir=c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir" "--source_file=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-David Cuthbert\180d1f6959a20e89b590310de7f57a5b\temp_pch.covpch" stdafx.cpp 
+2014-09-11T21:02:01.637695Z|cov-translate|4444|output|> PCH data for source file C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp\stdafx.cpp in emit database is already up-to-date
+2014-09-11T21:02:01.637695Z|cov-translate|4444|output|> [STATUS] Compiling stdafx.cpp
+2014-09-11T21:02:01.637695Z|cov-translate|4444|output|> "C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-emit.exe" "--dir=c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir" "--ignore_path=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-configure" "--ignore_path=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-David Cuthbert\180d1f6959a20e89b590310de7f57a5b" -w --no_stdarg_builtin --enable_declspec --default_cdecl --microsoft_version 1700 --pre_preinclude "c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity-macro-compat.h" --pre_preinclude "c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\WIN-OHVT1OSKC9G\config\cbc2e049f0f8f873b19608ab1ba13e3b\msvc_cxx-config-0\coverity-compiler-compat.h" --preinclude "c:\Program Files\Coverity\Coverity Static Analysis\config\template-msvc-config-0\..\user_nodefs.h" --c++ --microsoft --default_cdecl -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include" -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\um" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\shared" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\winrt" --import_dir Debug -I Debug --no_alternative_tokens --typeinfo_nostd --exceptions -DUNICODE -DWIN32 -D_CONSOLE -D_CPPUNWIND -D_DEBUG=1 -D_DLL=1 -D_MT=1 -D_UNICODE -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i stdafx.cpp 
+2014-09-11T21:02:01.915039Z|cov-translate|4444|output|> 
+2014-09-11T21:02:02.168945Z|cov-internal-capture|3812|info|> EXECUTING: "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe" @"C:\Users\David Cuthbert\AppData\Local\Temp\tmpec329cc6d3624981a22554c36eb5246b.tmp" /c "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe"  @"C:\Users\David Cuthbert\AppData\Local\Temp\tmp9920c45decc24f1fa47d1d3819de5787.rsp"
+2014-09-11T21:02:02.240234Z|cov-internal-capture|3812|info|> EXECUTING: "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe" "@C:\Users\David Cuthbert\AppData\Local\Temp\tmp9920c45decc24f1fa47d1d3819de5787.rsp"
+2014-09-11T21:02:02.888671Z|cov-internal-capture|3812|info|> CWD: C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\simpleCpp\
+2014-09-11T21:02:02.888671Z|cov-internal-capture|3812|info|> COMPILING: "C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-translate.exe" "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe" "@C:\Users\David Cuthbert\AppData\Local\Temp\tmp9920c45decc24f1fa47d1d3819de5787.rsp"
+2014-09-11T21:02:02.888671Z|cov-internal-capture|3812|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-55cc12aeb6163ae6e7578a705b158ad3.s
+2014-09-11T21:02:02.926757Z|cov-translate|4024|output|> Using cached template compiler configuration instance c:/Users/David Cuthbert/Downloads/simpleCpp/simpleCpp/.cov/idir/emit/WIN-OHVT1OSKC9G/config/cbc2e049f0f8f873b19608ab1ba13e3b/coverity_config.xml
+2014-09-11T21:02:02.937500Z|cov-translate|4024|output|> COV_TRANSLATE EXPANDED ARGS: "/c" "/ZI" "/nologo" "/W3" "/WX-" "/sdl" "/Od" "/Oy-" "/D" "WIN32" "/D" "_DEBUG" "/D" "_CONSOLE" "/D" "_UNICODE" "/D" "UNICODE" "/Gm" "/EHsc" "/RTC1" "/MDd" "/GS" "/fp:precise" "/Zc:wchar_t" "/Zc:forScope" "/Yustdafx.h" "/FpDebug\simpleCpp.pch" "/FoDebug\" "/FdDebug\vc110.pdb" "/Gd" "/TP" "/analyze-" "/errorReport:queue" "1.cpp" "2.cpp" "simpleCpp.cpp" "Source2.cpp"
+2014-09-11T21:02:03.071289Z|cov-translate|4024|output|> [STATUS] Compiling 4 C/C++ source files.
+2014-09-11T21:02:03.071289Z|cov-translate|4024|output|> [STATUS] Compiling 1.cpp
+2014-09-11T21:02:03.071289Z|cov-translate|4024|output|> "C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-emit.exe" "--dir=c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir" "--ignore_path=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-configure" "--ignore_path=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-David Cuthbert\1a78d13cb44c106703a1a3ecd6163c6e" -w --no_stdarg_builtin --enable_declspec --default_cdecl --microsoft_version 1700 --c++ --microsoft --default_cdecl -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include" -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\um" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\shared" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\winrt" --import_dir Debug -I Debug --no_alternative_tokens --typeinfo_nostd --exceptions -DUNICODE -DWIN32 -D_CONSOLE -D_CPPUNWIND -D_DEBUG=1 -D_DLL=1 -D_MT=1 -D_UNICODE -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i "--ignore_path=c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\.cov_pch" --mspch_id 1 "--source_file=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-David Cuthbert\1a78d13cb44c106703a1a3ecd6163c6e\dbbb924b1dc5ced84034bbe0616cdc02.cc" 1.cpp 
+2014-09-11T21:02:03.134765Z|cov-translate|4024|output|> [STATUS] Compiling 2.cpp
+2014-09-11T21:02:03.134765Z|cov-translate|4024|output|> "C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-emit.exe" "--dir=c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir" "--ignore_path=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-configure" "--ignore_path=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-David Cuthbert\1a78d13cb44c106703a1a3ecd6163c6e" -w --no_stdarg_builtin --enable_declspec --default_cdecl --microsoft_version 1700 --c++ --microsoft --default_cdecl -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include" -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\um" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\shared" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\winrt" --import_dir Debug -I Debug --no_alternative_tokens --typeinfo_nostd --exceptions -DUNICODE -DWIN32 -D_CONSOLE -D_CPPUNWIND -D_DEBUG=1 -D_DLL=1 -D_MT=1 -D_UNICODE -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i "--ignore_path=c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\.cov_pch" --mspch_id 1 "--source_file=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-David Cuthbert\1a78d13cb44c106703a1a3ecd6163c6e\6e9c6c7eaba0e30b0e24c8715823e6a1.cc" 2.cpp 
+2014-09-11T21:02:03.168945Z|cov-translate|4024|output|> [STATUS] Compiling simpleCpp.cpp
+2014-09-11T21:02:03.168945Z|cov-translate|4024|output|> "C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-emit.exe" "--dir=c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir" "--ignore_path=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-configure" "--ignore_path=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-David Cuthbert\1a78d13cb44c106703a1a3ecd6163c6e" -w --no_stdarg_builtin --enable_declspec --default_cdecl --microsoft_version 1700 --c++ --microsoft --default_cdecl -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include" -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\um" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\shared" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\winrt" --import_dir Debug -I Debug --no_alternative_tokens --typeinfo_nostd --exceptions -DUNICODE -DWIN32 -D_CONSOLE -D_CPPUNWIND -D_DEBUG=1 -D_DLL=1 -D_MT=1 -D_UNICODE -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i "--ignore_path=c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\.cov_pch" --mspch_id 1 "--source_file=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-David Cuthbert\1a78d13cb44c106703a1a3ecd6163c6e\c4a6a80220d36c8c86726faaf12a8f76.cc" simpleCpp.cpp 
+2014-09-11T21:02:03.176757Z|cov-translate|4024|output|> [STATUS] Compiling Source2.cpp
+2014-09-11T21:02:03.176757Z|cov-translate|4024|output|> "C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-emit.exe" "--dir=c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir" "--ignore_path=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-configure" "--ignore_path=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-David Cuthbert\1a78d13cb44c106703a1a3ecd6163c6e" -w --no_stdarg_builtin --enable_declspec --default_cdecl --microsoft_version 1700 --c++ --microsoft --default_cdecl -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include" -I "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\um" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\shared" -I "C:\Program Files (x86)\Windows Kits\8.0\Include\winrt" --import_dir Debug -I Debug --no_alternative_tokens --typeinfo_nostd --exceptions -DUNICODE -DWIN32 -D_CONSOLE -D_CPPUNWIND -D_DEBUG=1 -D_DLL=1 -D_MT=1 -D_UNICODE -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i "--ignore_path=c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir\emit\.cov_pch" --mspch_id 1 "--source_file=C:\Users\DAVIDC~1\AppData\Local\Temp\cov-David Cuthbert\34687400c6cfb000a63db8723650fdc0\cov-David Cuthbert\1a78d13cb44c106703a1a3ecd6163c6e\b489689847b28a2cccab4db85265c8b2.cc" Source2.cpp 
+2014-09-11T21:02:03.198242Z|cov-translate|4024|output|> 
+2014-09-11T21:02:03.458007Z|cov-internal-capture|3812|info|> EXECUTING: "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe" /a @"C:\Users\David Cuthbert\AppData\Local\Temp\tmp1f39edb8e8ad440c9722cda24a45a8c6.tmp" /c "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe"  /ERRORREPORT:QUEUE @"C:\Users\David Cuthbert\AppData\Local\Temp\tmp7832bcfcb3344db7b22526428688f676.rsp"
+2014-09-11T21:02:03.476562Z|cov-internal-capture|3812|info|> EXECUTING: "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe" /ERRORREPORT:QUEUE "@C:\Users\David Cuthbert\AppData\Local\Temp\tmp7832bcfcb3344db7b22526428688f676.rsp"
+2014-09-11T21:02:03.942382Z|cov-internal-capture|3812|info|> EXECUTING: rc /nologo /x /fo "C:\Users\DAVIDC~1\AppData\Local\Temp\lnk{DE9A8FD1-8294-4351-9C34-B993B7484D2F}.tmp" "C:\Users\DAVIDC~1\AppData\Local\Temp\lnk{3A0A43A8-283F-4FF8-8333-A99CF8949DA0}.tmp"
+2014-09-11T21:02:03.992187Z|cov-internal-capture|3812|info|> EXECUTING: cvtres /machine:x86 /nologo /out:"C:\Users\DAVIDC~1\AppData\Local\Temp\lnk{74D7DE84-7B48-4509-9990-10306C24C217}.tmp" /readonly "C:\Users\DAVIDC~1\AppData\Local\Temp\lnk{DE9A8FD1-8294-4351-9C34-B993B7484D2F}.tmp"
+2014-09-11T21:02:04.560546Z|cov-build|3496|info|> 
+2014-09-11T21:02:04.560546Z|cov-build|3496|info|> Build time (cov-build overall): 00:00:26.192382
+2014-09-11T21:02:04.560546Z|cov-build|3496|info|> 
+2014-09-11T21:02:04.560546Z|cov-build|3496|info|> Build time (C/C++ emits total): 00:00:00.709961
+2014-09-11T21:02:04.560546Z|cov-build|3496|info|> 
+2014-09-11T21:02:04.563476Z|cov-build|3496|info|> 6 C/C++ compilation units (100%) are ready for replay
+2014-09-11T21:02:04.564453Z|cov-build|3496|info|> The cov-build utility completed successfully.
+2014-09-11T21:02:04.569335Z|cov-build|3496|info|> 

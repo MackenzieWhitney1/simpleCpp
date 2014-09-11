@@ -1,0 +1,43 @@
+cmdline: command line: "C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-analyze" --dir "C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\.cov\idir" --no-banner --analysis-settings "c:/Users/David Cuthbert/Downloads/simpleCpp/simpleCpp/.cov/idir/emit/desktop-cache/analysis-settings.json" --persistent-models true --use-desktop-hashes "c:/Users/David Cuthbert/Downloads/simpleCpp/simpleCpp/.cov/idir/output/desktop-hashes" --export-summaries false --strip-path C:/Users/David --noxrefs --include-java --disable-webapp-security --ticker-mode=none --tu 1,68,69,70,71,72 -en PARSE_ERROR --force-report-rws --fb-exclude desktop 
+cmdline: parsed cmdline: [
+cmdline:   { name: "all" },
+cmdline:   { name: "dir", args: [ "C:\\Users\\David Cuthbert\\Downloads\\simpleCpp\\simpleCpp\\.cov\\idir" ] },
+cmdline:   { name: "no-banner" },
+cmdline:   { name: "persistent-models", args: [ "true" ] },
+cmdline:   { name: "use-desktop-hashes", args: [ "c:/Users/David Cuthbert/Downloads/simpleCpp/simpleCpp/.cov/idir/output/desktop-hashes" ] },
+cmdline:   { name: "export-summaries", args: [ "false" ] },
+cmdline:   { name: "strip-path", args: [ "C:/Users/David" ] },
+cmdline:   { name: "noxrefs" },
+cmdline:   { name: "include-java" },
+cmdline:   { name: "disable-webapp-security" },
+cmdline:   { name: "ticker-mode", args: [ "none" ] },
+cmdline:   { name: "tu", args: [ "1,68,69,70,71,72" ] },
+cmdline:   { name: "enable", args: [ "PARSE_ERROR" ] },
+cmdline:   { name: "force-report-rws" },
+cmdline:   { name: "fb-exclude", args: [ "desktop" ] },
+cmdline:   { name: "config", args: [ "C:\\Program Files\\Coverity\\Coverity Static Analysis\\config\\coverity_config.xml" ] },
+cmdline: ]
+startup: am_pid=4216
+startup: detected platform: Windows 7 Enterprise, 64-bit (build 7600)
+startup: target platform: win64
+startup: Detected 1 cpu cores
+startup: host name: WIN-OHVT1OSKC9G
+startup: user name: David Cuthbert
+startup: Analysis version: harmony (ce13406c64 p-harmony-push-20372)
+startup: temp directory: C:/Users/DAVIDC~1/AppData/Local/Temp/cov-David Cuthbert/6678ad2ec1762d80e428d18fbf21edf7
+startup: enable_constraint_fpp=0
+startup: current time: 2014-Sep-11 15:02:17
+startup: Detected amount of memory: 2096632kb
+startup: Limiting memory to 1886968kb
+wlink: Skipping web-app linking, no archives
+emitdb: callgraph.cpp:2051 11111111
+emitdb: callgraph.cpp:2072 11000011
+emitdb: callgraph.cpp:2093 11000011
+rta: Not running RTA because it doesn't apply to current languages
+emitdb: callgraph.cpp:2103 11000000
+dataflow-directives: Optimizing dataflow configuration
+general: Starting analysis
+dm-access-lib: AM listening for DM at 127.0.0.1:54010
+dm-access-lib: AM starting DM with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dm.exe --AM-port 54010 --log-file c:/Users/David Cuthbert/Downloads/simpleCpp/simpleCpp/.cov/idir/output/distributor.log -j 1 --AW-timeout 36000 C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker
+dm-access-lib: DM started: dm_pid=5076
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:54010 - 127.0.0.1:54011 (remote)

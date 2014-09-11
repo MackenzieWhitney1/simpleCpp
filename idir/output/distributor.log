@@ -1,0 +1,31 @@
+1409856556.373: DM started: dm_pid=5048
+1409856556.373: DM command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dm.exe --AM-port 62584 --log-file c:/Users/David Cuthbert/Downloads/simpleCpp/simpleCpp/idir/output/distributor.log -j 1 --AW-timeout 36000 C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker
+1409856556.373: Connecting to AM at 127.0.0.1:62584
+1409856556.373: Connected to AM: (local) 127.0.0.1:62585 - 127.0.0.1:62584 (remote)
+1409856556.420: Listening for DWs at 127.0.0.1:62586
+1409856556.420: Starting DW 1 with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 62586 --DW-id 1
+1409856556.795: DW 1 started: dw_pid=4936
+1409856557.420: DW 1 log: 1409856557.418: Connecting to DM on 127.0.0.1:62586
+1409856557.420: Received a connection from a DW: 127.0.0.1:62587
+1409856557.420: DW 1 log: 1409856557.418: Connected to the DM: (local) 127.0.0.1:62587 - 127.0.0.1:62586 (remote)
+1409856557.420: DW 1 log: 1409856557.418: Sending DWDM_INIT: dw_id=1, benchmark=0
+1409856557.420: Received DWDM_INIT: dw_id=1, benchmark=0
+1409856557.420: Stopping to listen for new DWs
+1409856557.420: Sending DMDW_INIT to DW 1: aw_command_line=["C:\\Program Files\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1409856557.420: DW 1 log: 1409856557.418: Received DMDW_INIT: aw_command_line=["C:\\Program Files\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1409856557.420: DW 1 log: 1409856557.418: Started listening for AW at 127.0.0.1:62588
+1409856557.420: DW 1 log: 1409856557.418: Starting AW with command line (COVERITY_DW_PORT=62588): C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker
+1409856557.498: DW 1 log: 1409856557.496: AW started: aw_pid=2500
+1409856557.529: DW 1 log: 1409856557.527: DW 1 received connection from AW: (local) 127.0.0.1:62588 - 127.0.0.1:62589 (remote)
+1409856577.264: AM closed the connection, DM shutting down
+1409856577.264: Disconnecting DW 1
+1409856577.264: DW 1 log: 1409856577.262: DW 1: the DM closed the connection, DW shutting down
+1409856577.264: DW 1 log: 1409856577.262: DW 1 summary: aw_starts=1, wurs_sent=2104, total_awms=657, total_dwms=14079
+1409856577.264: DW 1 log: 1409856577.262: Disconnecting AW
+1409856577.264: DW 1 log: 1409856577.262: AW exited with code 0
+1409856577.264: DW 1 log: AW peak mem bytes: 10080256
+1409856577.264: DW 1 log: 
+1409856577.279: DW 1 exited with code 0
+1409856577.279: dm-summary: elapsed_time_ms=20969, am_to_dm_wus=2104, dm_to_am_wurs=2104
+1409856577.279: dw-summary: dw_id=1, state=inactive, wus_outstanding=0, wus_sent=2104, wurs_received=2104, active_ms=14625, idle_ms=0
+1409856577.279: DM exiting with code 0

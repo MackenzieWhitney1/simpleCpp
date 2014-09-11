@@ -1,0 +1,9 @@
+--restrict-modified-file-regex
+^.*\.c$|^.*\.cpp$|^.*\.cc$|^.*\.cxx$|^.*\.h$|^.*\.hh$|^.*\.hpp$|^.*\.hxx$|^.*\.inl$|^.*\.tli$|^.*\.tlh$|^.*\.inc$|^.*\.cs$
+--analyze-scm-modified
+--scm
+git
+--scm-tool
+C:\Program Files (x86)\Git\bin\git.exe
+--scm-project-root
+C:\Users\David Cuthbert\Downloads\simpleCpp

@@ -1,0 +1,57 @@
+{
+  "type" : "Coverity issues",
+  "formatVersion" : 1,
+  "suppressedIssueCount" : 0,
+  "issues" : [],
+  "desktopAnalysisSettings" : {
+    "analysisDateTime" : "2014-09-11T15:09:21-06:00",
+    "covRunDesktopArgs" : [
+      "--dir",
+      "C:\\Users\\David Cuthbert\\Downloads\\simpleCpp\\simpleCpp\\.cov\\idir",
+      "--user",
+      "admin",
+      "--port",
+      "8080",
+      "--host",
+      "localhost",
+      "--stream",
+      "simpleCpp-cpp",
+      "--reference-snapshot",
+      "latest",
+      "--sort",
+      "function:a,cid:a",
+      "--no-text-output",
+      "--json-output-v1",
+      "C:\\Users\\David Cuthbert\\Downloads\\simpleCpp\\simpleCpp\\.cov\\idir\\fast-desktop.json",
+      "--no-default-triage-filters",
+      "--triage-attribute-regex",
+      "classification",
+      "^Unclassified$|^Pending$|^Bug$|^Untested$",
+      "--restrict-modified-file-regex",
+      "^.*\\.c$|^.*\\.cpp$|^.*\\.cc$|^.*\\.cxx$|^.*\\.h$|^.*\\.hh$|^.*\\.hpp$|^.*\\.hxx$|^.*\\.inl$|^.*\\.tli$|^.*\\.tlh$|^.*\\.inc$|^.*\\.cs$",
+      "--analyze-scm-modified",
+      "--scm",
+      "git",
+      "--scm-tool",
+      "C:\\Program Files (x86)\\Git\\bin\\git.exe",
+      "--scm-project-root",
+      "C:\\Users\\David Cuthbert\\Downloads\\simpleCpp"
+    ],
+    "effectiveStripPaths" : [
+      "C:\\Users\\David"
+    ],
+    "analysisScopePathnames" : [],
+    "strippedAnalysisScopePathnames" : [],
+    "auxiliaryScopePathnames" : [],
+    "strippedAuxiliaryScopePathnames" : [],
+    "referenceSnapshot" : null,
+    "effectiveAnalysisSettings" : {
+      "covAnalyzeArgs" : [],
+      "fileCheckerOptions" : [],
+      "fbExcludeConfigurations" : [],
+      "fbIncludeConfiguration" : null
+    },
+    "relativeTo" : "C:\\Program Files\\Coverity\\Coverity Static Analysis\\bin"
+  },
+  "error" : null
+}

@@ -1,0 +1,3 @@
+TUInfos cache miss rate: 4 / 10010 (0.04%)
+GetCallees cache miss rate: 7500 / 8008 (93.66%)
+GetCallers cache miss rate: 6996 / 8008 (87.36%)

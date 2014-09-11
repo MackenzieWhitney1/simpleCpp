@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>25</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>cov-analyze --dir idir</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>WIN-OHVT1OSKC9G</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>win64</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Windows 7 Enterprise, 64-bit (build 7600)</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>harmony (build 7ec8a212d9 p-harmony-push-20278)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>David Cuthbert</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>C:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>C:\Program Files\Coverity\Coverity Static Analysis\config\coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\idir</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\idir\output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>c:\Users\David Cuthbert\Downloads\simpleCpp\simpleCpp\idir\emit</value>
+    </metric>
+    <metric>
+        <name>peak-mem-bytes</name>
+        <value>19279872</value>
+    </metric>
+    <metric>
+        <name>aw-peak-mem-bytes</name>
+        <value>9289728</value>
+    </metric>
+    <metric>
+        <name>am+aw-peak-mem-bytes</name>
+        <value>19345408</value>
+    </metric>
+    <metric>
+        <name>files-analyzed</name>
+        <value>4</value>
+    </metric>
+    <metric>
+        <name>code-lines</name>
+        <value>35486</value>
+    </metric>
+    <metric>
+        <name>comment-lines</name>
+        <value>1266</value>
+    </metric>
+    <metric>
+        <name>blank-lines</name>
+        <value>5879</value>
+    </metric>
+    <metric>
+        <name>code-lines-with-inline-comments</name>
+        <value>248</value>
+    </metric>
+    <metric>
+        <name>functions-analyzed</name>
+        <value>2002</value>
+    </metric>
+    <metric>
+        <name>function-metrics-count</name>
+        <value>2002</value>
+    </metric>
+    <metric>
+        <name>paths-analyzed</name>
+        <value>4004</value>
+    </metric>
+    <metric>
+        <name>memout-count</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>pathout-count</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>tus-count</name>
+        <value>5</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>incremental-misses</name>
+        <value>4004</value>
+    </metric>
+    <metric>
+        <name>incremental-hits</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>FORWARD_NULL-new-defect-count</name>
+        <value>2002</value>
+    </metric>
+    <metric>
+        <name>total-new-defect-count</name>
+        <value>2002</value>
+    </metric>
+    <metric>
+        <name>extver</name>
+        <value>harmony</value>
+    </metric>
+    <metric>
+        <name>intver</name>
+        <value>7ec8a212d9 p-harmony-push-20278</value>
+    </metric>
+    <metric>
+        <name>enabled-checkers</name>
+        <value>ARRAY_VS_SINGLETON,ASSERT_SIDE_EFFECT,BAD_ALLOC_ARITHMETIC,BAD_ALLOC_STRLEN,BAD_COMPARE,BAD_FREE,BAD_OVERRIDE,BAD_SIZEOF,CALL_SUPER,CHAR_IO,CHECKED_RETURN,COM.BAD_FREE,COM.BSTR.CONV,CONSTANT_EXPRESSION_RESULT,COPY_PASTE_ERROR,CTOR_DTOR_LEAK,DEADCODE,DELETE_ARRAY,DELETE_VOID,EVALUATION_ORDER,FORWARD_NULL,GUARDED_BY_VIOLATION,INFINITE_LOOP,INVALIDATE_ITERATOR,MISSING_BREAK,MISSING_RETURN,NEGATIVE_RETURNS,NESTING_INDENT_MISMATCH,NON_STATIC_GUARDING_STATIC,NO_EFFECT,NULL_RETURNS,OVERFLOW_BEFORE_WIDEN,OVERRUN,PASS_BY_VALUE,READLINK,RESOURCE_LEAK,RETURN_LOCAL,REVERSE_INULL,REVERSE_NEGATIVE,SIGN_EXTENSION,SIZEOF_MISMATCH,STRAY_SEMICOLON,STREAM_FORMAT_STATE,SWAPPED_ARGUMENTS,UNCAUGHT_EXCEPT,UNINIT,UNINIT_CTOR,UNREACHABLE,UNUSED_VALUE,USE_AFTER_FREE,VARARGS,WRAPPER_ESCAPE</value>
+    </metric>
+    <metric>
+        <name>ta.code_age_thresholds</name>
+        <value>0, 0</value>
+    </metric>
+    <metric>
+        <name>code-version-date</name>
+        <value>1409856299</value>
+    </metric>
+    <metric>
+        <name>cxx</name>
+        <value>yes</value>
+    </metric>
+    <metric>
+        <name>concurrency</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>security</name>
+        <value>yes</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>max-mem</name>
+        <value>512</value>
+    </metric>
+    <metric>
+        <name>paths</name>
+        <value>5000</value>
+    </metric>
+    <metric>
+        <name>enable-parse-warnings</name>
+        <value>no</value>
+    </metric>
+</metrics>
+</coverity>
